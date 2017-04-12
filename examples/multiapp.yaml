@@ -1,0 +1,13 @@
+confHub:
+  url: http://localhost:8080
+  username: root
+  password: confHub
+apps:
+  - name: app1
+    confPath: /tmp/app1.json
+    format: json
+
+  - name: app1
+    confPath: /tmp/app1_1.0.0.xml
+    version: 1.0.0
+    format: xml
