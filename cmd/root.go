@@ -33,6 +33,7 @@ var RootCmd = &cobra.Command{
 	Run:func(cmd *cobra.Command, args []string) {
 		agent.ReadConfiguration()
 		agent.UpdateAllConfiguration()
+		agent.WatchingApplications();
 	},
 }
 

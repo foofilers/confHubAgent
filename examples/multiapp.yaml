@@ -6,8 +6,15 @@ apps:
   - name: app1
     confPath: /tmp/app1.json
     format: json
+    permission: 0644
 
   - name: app1
     confPath: /tmp/app1_1.0.0.xml
     version: 1.0.0
     format: xml
+    permission: 0644
+
+  - name: app1
+    confPath: /tmp/app1.properties
+    format: properties
+    permission: 0644
